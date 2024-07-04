@@ -1,18 +1,18 @@
 # Documentation de l'application medilabo
 
 #### 1. Lancement
-Pour lancer l'application il vous faudra docker installe sur votre machine.
+Pour lancer l'application il vous faudra docker installé sur votre machine.
 
 - Au premier lancement vous pouvez lancer la commande 
 `docker-compose up -d`
 
-- Si vous apportez des modifications sur le code, pour redeployer vos changements lancer la commande
+- Si vous apportez des modifications sur le code, pour redéployer vos changements, lancer la commande
 
 ` docker-compose up --force-recreate --build -d`
 
 #### 2. Les composantes
 
-L'application est constituee des microservices (ms) suivants:
+L'application est constituée des microservices (ms) suivants:
 
 - la gateway 8080
 - le ms front (UI) 8081
@@ -29,8 +29,8 @@ Pour se connecter depuis le ms-front vous pouvez utiliser l'un des identifiants 
 
 #### 3. Outils
 
-Vous pouvez utiliser l'outil [Mongo Compass](https://www.mongodb.com/products/tools/compass) pour visualiser les donnees de la connexion, renseigner host=localhost et port=27017
+Vous pouvez utiliser l'outil [Mongo Compass](https://www.mongodb.com/products/tools/compass) pour visualiser les données de la connexion, renseigner host=localhost et port=27017
 
-Pour la BD MySQL vous pouvez utiliser l'outil [DB Eaver](https://dbeaver.io/) ou equivalent
+Pour la BD MySQL vous pouvez utiliser l'outil [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/), [DB Eaver](https://dbeaver.io/) ou équivalent
 
 Pour manager les containers vous pouvez y aller soit via le terminal ou plus facilement avec un outil graphique tel que [Docker Desktop](https://www.docker.com/products/docker-desktop/)
