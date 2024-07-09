@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.medilabo.dto.Note;
+import com.medilabo.services.NoteService;
 
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.medilabo.controller;
+package com.medilabo.services;
 
 import com.medilabo.config.GatewayProperties;
 import com.medilabo.dto.Note;
