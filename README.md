@@ -34,3 +34,7 @@ Vous pouvez utiliser l'outil [Mongo Compass](https://www.mongodb.com/products/to
 Pour la BD MySQL vous pouvez utiliser l'outil [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/), [DB Eaver](https://dbeaver.io/) ou équivalent
 
 Pour manager les containers vous pouvez y aller soit via le terminal ou plus facilement avec un outil graphique tel que [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+### 4. Green Code
+
+Beaucoup de choix ont été faits pour respecter au maximum le green code, mais d'autres choix s'offrent à nous, comme par exemple l'existence d'une base de données statique pour les patients. En effet, les données des patients ne devraient pas souvent changer, donc la création d'une base de données statique est assez cohérente. Elle éviterait des appels multiples entre le front, la gateway et le micro service patient lors d'un reload de la page d'accueil du site. Aussi, cela augmenterait la rapidité de l'application.
